@@ -2,25 +2,181 @@
  <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/MY PHOTO.jpg">
         <title>Muhammad Portfolio</title>
-    </head>
-    <body>
-        <h1>Muhammad Shehu's Portfolio</h1>
-        <h2>I'm a Web Developer </h2>
-        <hr />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-        <h3>My Projects</h3>
-        <ol>
-            <li><a href="./public/movie-ranking.html">Movie Ranking Project</a></p>
-                <img src="./assets/images/movie-ranking.png" alt="movie ranking project screenshot" height="200" />
-            </li>
-            <li><a href="./public/birthday-invite.html">Birthday Invite Project</a></p>
-                <img src="./assets/images/birthday-invite.png" alt="birthday invite project screenshot" height="200" />
-            </li>
-        </ol>
-        <hr />
+
+    </head>
+    <body class="max-w-1440">
         
-        <a href="./public/about.html">About Me</a>
-        <a href="./public/contact.html">Contact Me</a>
+        <header class="bg-[url(/images/bg-pattern-card.svg)] flex justify-between h-10 ">
+
+            <div class="border-1   border-[#E5E5E5] rounded-lg p-1 visible md:invisible lg:invisible self-end">
+                 <button class=""><i class="fa fa-align-right"></i></button>
+            </div>
+
+            <div class="  flex justify-between item-center gap-10 flex-end pt-2 font-medium invisible md:visible lg:visible text-white">
+                <div class=" hover:underline-offset-[9px] hover:underline hover:decoration-blue-500 hover:decoration-4">
+                    <p class="text-lg"><a href="#">Home</a></p>
+                </div>
+                <div class="hover:underline-offset-[9px] hover:underline hover:decoration-blue-500 hover:decoration-4">
+                    <p class=""><a class="" href="./public/contact.html">Contact</a></p>
+                </div>
+                <div class="hover:underline-offset-[9px] hover:underline hover:decoration-blue-500 hover:decoration-4">
+                    <p><a class="" href="./public/hobbies.html">Hobbie</a></p>
+                </div>
+                <div class="hover:underline-offset-[9px] hover:underline hover:decoration-blue-500 hover:decoration-4">
+                    <p class=""><a class="" href="./public/survey.html">Survey</a></p>
+                </div>
+                <div class="border-1 border-[#E5E5E5] hover:bg-blue-200 rounded-md p-1 ">
+                    <button class=" mb-1"><a class=" href="#"><img src="./images/sun.jpg" alt="sun" /></a></button>
+                </div>
+            </div>
+        </header>
+
+
+
+        <main class="flex flex-col bg-[url(/images/courses.jpg)] bg-cover bg-no-repeat bg-center">
+            <div class="flex justify-center items-center h-screen self-center w-90">
+                <div class="bg-white rounded-lg shadow-lg flex flex-col items-center justify-center relative overflow-hidden w-80 h-96">
+                    <img class="" src="./images/bg-pattern-card.svg" alt="Background Pattern" >
+                    <img class="absolute top-15 rounded-full w-32 h-32 mb-4 border-2 border-gray-200" src="./images/MY PHOTO.jpg" alt="My Photo">             
+                    <h1 class="text-2xl font-bold mt-19 mb-2">Muhammad Shehu</h1>
+                    <p class="text-gray-600 mb-4">Web Developer</p>
+                    <p class="text-center p-4">Hi! I am Muhammad Shehu, I am a web developer at IOTBTECH Fellowship, Cohort 4 2025 set.</p>
+                </div>
+            </div>
+
+
+
+            <section class="flex flex-col ">
+                    <div class="self-center "><h2 class="text-center text-4xl font-bold mb-3 text-white">PROJECTS</h2></div>
+
+                    <div class="flex flex-col md:grid grid-cols-2 lg:grid-cols-3 justify-center self-center items-center gap-5 mb-30">
+
+
+
+                        <div class="flex flex-col justify-between border-1 rounded-xl bg-gray-300 border-[#E5E5E5]  p-3 relative w-85">
+                            <div class="absolute top-5  left-5 "><button class="bg-blue-500 px-4 rounded-lg"><p class="text-sm text-gray-200 py-2">Development</p></button></div>
+                            <div class="self-center">
+                                <img class="rounded-xl mb-5 " src="./images/tian.PNG" alt="computer" />
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-2xl mb-2">Tian Landing page</h3>
+                            </div>
+                            <a target="_blank" href="https://muhsalim-3.github.io/Tian-landing-page/" >
+                                <div class="bg-blue-500 hover:bg-blue-300 rounded-md text-white text-center py-2">
+                                <button>Check it out</button>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="flex flex-col justify-between border-1 rounded-xl bg-gray-300 border-[#E5E5E5]  p-3 relative w-85">
+                            <div class="absolute top-5  left-5 "><button class="bg-blue-500 px-4 rounded-lg"><p class="text-sm text-gray-200 py-2">Development</p></button></div>
+                            <div class="self-center">
+                                <img class="rounded-xl mb-5 " src="./images/huddle.PNG" alt="computer" />
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-2xl mb-2">Huddle Landing page with Alternating Feature Blocks</h3>
+                            </div>
+                            <a target="_blank" href="https://muhsalim-3.github.io/Frontend-Mentor-Huddle-landing-page-with-alternating-feature-blocks/" >
+                                <div class="bg-blue-500 hover:bg-blue-300 rounded-md text-white text-center py-2">
+                                <button>Check it out</button>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="flex flex-col justify-between border-1 rounded-xl bg-gray-300 border-[#E5E5E5]  p-3 relative w-85">
+                            <div class="absolute top-5  left-5 "><button class="bg-blue-500 px-4 rounded-lg"><p class="text-sm text-gray-200 py-2">Development</p></button></div>
+                            <div class="self-center">
+                                <img class="rounded-xl mb-5 " src="./images/card.PNG" alt="computer" />
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-2xl mb-2">Profile Card Component</h3>
+                            </div>
+                            <a target="_blank" href="https://muhsalim-3.github.io/Frontend-Mentor-Profile-card-component/" >
+                                <div class="bg-blue-500 hover:bg-blue-300 rounded-md text-white text-center py-2">
+                                <button>Check it out</button>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="flex flex-col justify-between border-1 rounded-xl bg-gray-300 border-[#E5E5E5]  p-3 w-85">
+                            <div class="self-center">
+                                <img class="rounded-xl mb-5 " src="./images/flag-pro.PNG" alt="computer" />
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-2xl mb-2">Flag</h3>
+                            </div>
+                            <a target="_blank" href="./public/flag.html" >
+                                <div class="bg-blue-500 hover:bg-blue-300 rounded-md text-white text-center py-2">
+                                <button>Check it out</button>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="flex flex-col justify-between border-1 rounded-xl bg-gray-300 border-[#E5E5E5]  p-3 w-85">
+                            <div class="self-center">
+                                <img class="rounded-xl mb-5 " src="./images/birthday-invite.png" alt="computer" />
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-2xl mb-2">Birthday Invite</h3>
+                            </div>
+                            <a target="_blank" href="./public/birthday-invite.html" >
+                                <div class="bg-blue-500 hover:bg-blue-300 rounded-md text-white text-center py-2">
+                                <button>Check it out</button>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="flex flex-col justify-between border-1 rounded-xl bg-gray-300 border-[#E5E5E5]  p-3  w-85"><div class="self-center">
+                            <img class="rounded-xl mb-5 " src="./images/movie-ranking.png" alt="computer" />
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-2xl mb-2">Movie Ranking</h3>
+                            </div>
+                            <a target="_blank" href="./public/movie-ranking.html" >
+                                <div class="bg-blue-500 hover:bg-blue-300 rounded-md text-white text-center py-2">
+                                <button>Check it out</button>
+                                </div>
+                            </a>
+                        </div>
+            </section>
+        </main>
+
+        <footer class="bg-blue-800">
+            <div class="flex flex-col md:flex-row justify-between items-center p-5 pl-10 pr-10 text-white">
+                <ul>
+                    <li>
+                        <div class="flex items-start gap-5">
+                        <img src="./images/icon-location.svg" alt="location" />
+                        <p>Professors Quarters, Modibbo Adama University, Yola</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex items-start gap-5">
+                        <img src="./images/icon-phone.svg" alt="phone" />
+                        <p>
+                            +234-7038210330
+                        </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex items-start gap-5">
+                        <img src="./images/icon-email.svg" alt="email" />
+                        <p>
+                            muhammadshehu.iotbtech@hotmail.com
+                        </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="text-right pb-10 text-white">&copy; Copyright Muhammad Shehu. All rights reserved.</div>
+
+    </footer>
     </body>
  </html>
